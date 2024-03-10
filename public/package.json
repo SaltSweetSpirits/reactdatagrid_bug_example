@@ -1,0 +1,52 @@
+{
+  "name": "reactdatagrid_grouping_example",
+  "version": "0.2.0-beta.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "scripts": {
+    "reinstall": "rm -rf node_modules && npm install",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@inovua/reactdatagrid-enterprise": "5.10.2",
+    "foundation-sites": "6.6.1",
+    "jquery": "3.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.1",
+    "react-transition-group": "4.4.2"
+  },
+  "overrides": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ],
+      [
+        "@babel/plugin-transform-runtime"
+      ]
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

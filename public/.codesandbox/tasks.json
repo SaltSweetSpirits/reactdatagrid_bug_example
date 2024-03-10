@@ -1,0 +1,38 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "pop_beta": {
+      "name": "pop_beta",
+      "command": "npm run pop_beta"
+    },
+    "rebuild_beta": {
+      "name": "rebuild_beta",
+      "command": "npm run rebuild_beta"
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build"
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test"
+    },
+    "eject": {
+      "name": "eject",
+      "command": "npm run eject"
+    }
+  }
+}
