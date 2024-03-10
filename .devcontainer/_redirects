@@ -1,0 +1,3 @@
+#redirect rules for netlify
+/src/css/*  /src/css/  200
+/*    /index.html   200
